@@ -1,44 +1,74 @@
-/* author - deepak tiwari */
+/* Made by TNMY for JAANU */
+/* original idea inspired by a heartbreak from 6 feb 2026 */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
-  
-  body {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffe5e5;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 20px;
-    max-width: 500px;
-    margin: 20px;
-  }
-  
-  .container .tenor-gif-embed {
-    max-width: 200px;
-  }
-  
-  .container .btn {
-    display: flex;
-    gap: 25px;
-  }
-  
-  .btn a {
-    text-decoration: none;
-    color: #111;
-    background: #fff;
-    padding: 10px 25px;
-    border-radius: 8px;
-    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe5e5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 18px;
+  max-width: 420px;
+  padding: 25px 20px;
+}
+
+/* GIF sizing control */
+.gif-wrap {
+  width: 240px;          /* perfect cute size */
+}
+
+.tenor-gif-embed {
+  width: 100%;
+}
+
+/* Heading */
+h1 {
+  font-size: 1.6rem;
+  color: #111;
+}
+
+/* Subtitle */
+p {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Buttons container */
+.btn {
+  display: flex;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+/* Buttons */
+.btn a {
+  text-decoration: none;
+  color: #111;
+  background: #fff;
+  padding: 10px 28px;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.btn a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
