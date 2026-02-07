@@ -27,35 +27,34 @@ body {
   padding: 25px 20px;
 }
 
-/* GIF sizing control */
+/* GIF wrapper controls size */
 .gif-wrap {
-  width: 240px;          /* perfect cute size */
+  width: 240px;          /* change size here */
+  margin-bottom: 10px;
 }
 
 .tenor-gif-embed {
   width: 100%;
 }
 
-/* Heading */
+/* Text */
 h1 {
   font-size: 1.6rem;
   color: #111;
 }
 
-/* Subtitle */
 p {
   font-size: 1rem;
   color: #444;
 }
 
-/* Buttons container */
+/* Buttons */
 .btn {
   display: flex;
   gap: 25px;
   margin-top: 10px;
 }
 
-/* Buttons */
 .btn a {
   text-decoration: none;
   color: #111;
@@ -67,7 +66,6 @@ p {
   transition: all 0.25s ease;
 }
 
-/* Hover effect */
 .btn a:hover {
   transform: translateY(-3px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
